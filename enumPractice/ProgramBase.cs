@@ -31,18 +31,60 @@ namespace enumPractice
             {
 
                 calculateWage += 500;
-                Console.WriteLine($"If federal, add 500: {calculateWage}\n");
+                Console.WriteLine($"If federal, add 500: {calculateWage}");
             }
             if (courtType == CourtType.State)
             {
                 calculateWage += 300;
-                Console.WriteLine($"If state, add 300: {calculateWage}\n");
+                Console.WriteLine($"If state, add 300: {calculateWage}");
             }
                 
             if (courtType == CourtType.Municipal)
             {
                 calculateWage += 200;
-                Console.WriteLine($"If municipal, add 200: {calculateWage}\n");
+                Console.WriteLine($"If municipal, add 200: {calculateWage}");
+            }
+            if (motion =="Discovery")
+            {
+
+                calculateWage += 75;
+                Console.WriteLine($"If discovery, add 25: {calculateWage}\n");
+            }
+            if (motion == "Appeal")
+            {
+
+                calculateWage += 175;
+                Console.WriteLine($"If appeal, add 175: {calculateWage}\n");
+            }
+            if (motion == "Habeas")
+            {
+
+                calculateWage += 75;
+                Console.WriteLine($"If Habeas, add 50: {calculateWage}\n");
+            }
+            if (motion == "Appeal")
+            {
+
+                calculateWage += 175;
+                Console.WriteLine($"If appeal, add 175: {calculateWage}\n");
+            }
+            if (motion == "Limine")
+            {
+
+                calculateWage += 175;
+                Console.WriteLine($"If limine, add 175: {calculateWage}\n");
+            }
+            if (motion == "Response")
+            {
+
+                calculateWage += 155;
+                Console.WriteLine($"If appeal, add 175: {calculateWage}\n");
+            }
+            if (motion == "Habeas")
+            {
+
+                calculateWage += 75;
+                Console.WriteLine($"If Habeas, add 50: {calculateWage}\n");
             }
             else
             {
