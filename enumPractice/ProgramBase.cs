@@ -59,15 +59,10 @@ namespace enumPractice
             if (motion == "Habeas")
             {
 
-                calculateWage += 75;
+                calculateWage += 50;
                 Console.WriteLine($"If Habeas, add 50: {calculateWage}\n");
             }
-            if (motion == "Appeal")
-            {
-
-                calculateWage += 175;
-                Console.WriteLine($"If appeal, add 175: {calculateWage}\n");
-            }
+            
             if (motion == "Limine")
             {
 
@@ -80,12 +75,7 @@ namespace enumPractice
                 calculateWage += 155;
                 Console.WriteLine($"If appeal, add 175: {calculateWage}\n");
             }
-            if (motion == "Habeas")
-            {
-
-                calculateWage += 75;
-                Console.WriteLine($"If Habeas, add 50: {calculateWage}\n");
-            }
+            
             else
             {
                 calculateWage *= 1;
