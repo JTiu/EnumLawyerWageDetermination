@@ -6,11 +6,16 @@ namespace enumPractice
     {
         static void Main(string[] args)
         {
-            UsingEnumerations();
+            //UsingEnumerations();
+            //Console.ReadLine();
+            
+            GiveName();
+            GetAnotherName();
+            
             Console.ReadLine();
         }
-        
 
+        
         private static void UsingEnumerations()
         {
             EmployeeType employeeTypeLAW = EmployeeType.Lawyer;
@@ -27,8 +32,9 @@ namespace enumPractice
             CalculateWage(baseWage, employeeTypeLIT, courtTypeMun, "Habeas");
             CalculateWage(baseWage, employeeTypeLAW, courtTypeSta, "Limine");
             CalculateWage(baseWage, employeeTypeLIT, courtTypeFed, "Response");
-
+            
         }
+        
 
         private static void GiveName()
         {
@@ -36,6 +42,13 @@ namespace enumPractice
 
             Console.WriteLine($"the name is: {name}");
             
+        }
+        private static void GetAnotherName()
+        {
+
+            string nameX = "Juanita";
+            Console.WriteLine($"The other name is: {nameX}");
+
         }
     }
 }

@@ -4,7 +4,8 @@ namespace enumPractice
 {
     internal class ProgramBase
     {
-
+       
+      
         public static void CalculateWage(int baseWage, EmployeeType employeeType, CourtType courtType, string motion)
         {
             int calculateWage = 0;
