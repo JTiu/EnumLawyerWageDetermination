@@ -8,10 +8,11 @@ namespace enumPractice
         {
             //UsingEnumerations();
             //Console.ReadLine();
-            
-            GiveName();
+            Person person = new Person(22, 5, "Jose");
+            Person nextPerson = new Person(24, 9, "Mija");
+           
+            GetName();
             GetAnotherName();
-            
             Console.ReadLine();
         }
 
@@ -36,7 +37,7 @@ namespace enumPractice
         }
         
 
-        private static void GiveName()
+        private static void GetName()
         {
             string name = "Jose";
 
