@@ -1,4 +1,6 @@
-﻿using System;
+﻿using enumPractice.Clerk;
+using enumPractice.HR;
+using System;
 
 namespace enumPractice
 {
@@ -10,6 +12,9 @@ namespace enumPractice
             //Console.ReadLine();
             Person person = new Person(22, 5, "Jose");
             Person nextPerson = new Person(24, 9, "Mija");
+            ClerkMethods newOffice = new ClerkMethods(7);
+            ClerkMethods newOffice1 = new ClerkMethods(12);
+           
            
             GetName();
             GetAnotherName();

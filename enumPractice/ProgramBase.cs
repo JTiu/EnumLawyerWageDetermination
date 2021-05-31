@@ -1,4 +1,5 @@
-﻿using System;
+﻿using enumPractice.HR;
+using System;
 
 namespace enumPractice
 {

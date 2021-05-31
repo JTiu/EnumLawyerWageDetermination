@@ -1,4 +1,4 @@
-﻿namespace enumPractice
+﻿namespace enumPractice.HR
 {
     enum MotionType
     {
